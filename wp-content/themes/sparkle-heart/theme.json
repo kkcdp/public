@@ -47,12 +47,12 @@
                 "typography": {
                     "fontFamilies": [
                         {
-                            "fontFamily": "Montserrat",
+                            "fontFamily": "Montserrat, sans-serif",
                             "slug": "sp-montserrat",
                             "name": "Sparkheart Montserrat"
                         },
                         {
-                            "fontFamily": "Oswald",
+                            "fontFamily": "Oswald, sans-serif",
                             "slug": "sp-oswald",
                             "name": "Sparkleheart Oswald"
                         }
@@ -82,12 +82,12 @@
         "typography": {
             "fontFamilies": [
                 {
-                    "fontFamily": "Montserrat",
+                    "fontFamily": "Montserrat, sans-serif",
                     "slug": "sp-montserrat",
                     "name": "Sparkheart Montserrat"
                 },
                 {
-                    "fontFamily": "Oswald",
+                    "fontFamily": "Oswald, sans-serif",
                     "slug": "sp-oswald",
                     "name": "Sparkleheart Oswald"
                 }
