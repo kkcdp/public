@@ -1,0 +1,100 @@
+/*
+ * From: https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css
+ */
+
+.cc-window {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease;
+          transition: opacity 1s ease;
+  background-color: #fff;
+}
+
+.cc-window.cc-invisible { opacity: 0 }
+
+.cc-window {
+  position: fixed;
+  overflow: hidden;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  z-index: 9999
+}
+.cc-window {
+  padding: 24px;
+  max-width: 342px;
+  display: block;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .16);
+}
+.cc-btn,
+.cc-close,
+.cc-link { cursor: pointer }
+
+.cc-btn {
+  display: block;
+  text-align: center;
+  white-space:nowrap
+}
+
+.cc-btn:active,
+.cc-btn:focus { outline: 0 }
+
+.cc-allow { margin-right: 16px; }
+
+.cc-window .cc-compliance .cc-deny {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.cc-right { right: 16px }
+.cc-bottom { bottom: 16px }
+
+.cc-message {
+  display: block;
+  margin-bottom: 16px
+}
+
+.cc-compliance {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  -ms-flex: 1 0 auto;
+  -webkit-box-flex: 1;
+  flex: 1 0 auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+
+@media print {
+  .cc-window { display: none }
+}
+
+@media ( max-width: 480px ) {
+  .cc-window {
+    left: 16px;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 340px){
+  .cc-compliance { flex-wrap: wrap; }
+
+  .cc-btn{
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .cc-deny{
+    margin-left: 0;
+    margin-top: 16px;
+  }
+}

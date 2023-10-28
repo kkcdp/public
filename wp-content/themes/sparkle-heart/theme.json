@@ -1,0 +1,179 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+    "settings": {
+        "appearanceTools": false,
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {"slug": "sh-fblack", "color": "#060606", "name": "Font black"},
+                {"name": "Main gray", "slug": "sh-mgray", "color": "#2F4858"},
+                {"slug": "sh-white", "color": "#FFFFFF", "name": "White"},
+                {"slug": "sh-yellow-sec", "color": "#CD7C20", "name": "Yellow second"},
+                {"slug": "sh-gray", "color": "#C4C4C466", "name": "Form Gray"},
+                {"slug": "sh-yellow-fir", "color": "#FFA800", "name": "Yellow first"},
+                {"slug": "sh-yellow-th", "color": "#FFCB66", "name": "Yellow third"},
+                {"slug": "sh-yellow-fo", "color": "#FFA80080", "name": "Yellow four"}
+            ],
+            "background": true,
+            "text": true,
+            "link": true,
+            "custom": false,
+            "defaultGradients": false,
+            "gradients": [],
+            "customGradient": false,
+            "duotone": [],
+            "customDuotone": false,
+            "defaultDuotone": false
+        },
+        "blocks": {
+            "core/site-title": {
+                "color": {
+                    "defaultPalette": false,
+                    "palette": [
+                        {"slug": "sh-fblack", "color": "#060606", "name": "Font black"},
+                        {"slug": "sh-mgray", "color": "#2F4858", "name": "Main gray"},
+                        {"slug": "sh-white", "color": "#FFFFFF", "name": "White"},
+                        {"slug": "sh-yellow-sec", "color": "#CD7C20", "name": "Yellow second"},
+                        {"slug": "sh-gray", "color": "#C4C4C466", "name": "Form Gray"},
+                        {"slug": "sh-yellow-fir", "color": "#FFA800", "name": "Yellow first"},
+                        {"slug": "sh-yellow-th", "color": "#FFCB66", "name": "Yellow third"},
+                        {"slug": "sh-yellow-fo", "color": "#FFA80080", "name": "Yellow four"}
+                    ],
+                    "custom": false,
+                    "gradients": [],
+                    "customGradient": false
+                },
+                "typography": {
+                    "fontFamilies": [
+                        {
+                            "fontFamily": "Montserrat",
+                            "slug": "sp-montserrat",
+                            "name": "Sparkheart Montserrat"
+                        },
+                        {
+                            "fontFamily": "Oswald",
+                            "slug": "sp-oswald",
+                            "name": "Sparkleheart Oswald"
+                        }
+                    ]
+                  }
+                
+            },
+            "core/cover": {
+                "color": {
+                    "duotone": [],
+                    "customDuotone": false
+                }
+            },
+            "core/preformatted": {
+                "typography": {
+                    "fontSizes": [],
+                    "customFontSize": false
+                }
+            }
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+          },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Montserrat",
+                    "slug": "sp-montserrat",
+                    "name": "Sparkheart Montserrat"
+                },
+                {
+                    "fontFamily": "Oswald",
+                    "slug": "sp-oswald",
+                    "name": "Sparkleheart Oswald"
+                }
+            ],
+            "fontSizes": [
+                {"slug": "small", "size": "1.125rem", "name": "18"},
+                {"slug": "middle", "size": "1.5rem", "name": "24"},
+                {"slug": "large", "size": "1.875rem", "name": "30"},
+                {"slug": "x-large", "size": "3rem", "name": "48"}
+            ],
+            
+            "lineHeight": true,
+            "fontWeight": true,
+            "fontStyle": true,
+            "textTransform": false,
+            "letterSpacing": true,
+            "textDecoration": false
+        },
+        "layout": {
+            "contentSize": "600px",
+            "wideSize": "1000px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "units": [
+                "px", "rem", "vh", "vw", "%"
+            ],
+            "blockGap": true
+        }
+        
+    },
+    "styles": {
+        "color": {
+            "text": "var(--wp--preset--color--sh-mgray)",
+            "background": "var(--wp--preset--color--sh-white)"
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--sp-montserrat)",
+            "fontSize": "var(--wp--preset--font-family--small)",
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "lineHeight": "inherit",
+            "textDecoration": "none",
+            "textTransform": "none"
+        },
+        "elements": {
+            "link": {
+              "color": {
+                "text": "var(--wp--preset--color--sh-yellow-sec)"
+              }
+            }
+          },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "text": "var(--wp--preset--color--sh-white)"
+                }
+              },
+              "core/site-title": {
+                "typography": {
+                  "fontFamily": "var(--wp--preset--font-family--sp-montserrat)"
+                }
+              }
+
+        },
+        "spacing": {
+            "margin": {
+                "top": "0px",
+                "bottom": "0px",
+                "left":"0px",
+                "right": "0px"
+            },
+            "padding": {
+                "top": "0px",
+                "bottom": "0px",
+                "left":"0px",
+                "right": "0px"
+            },
+            "blockGap": "4rem"
+        }
+}
+
+
+
+
+
+
+}
